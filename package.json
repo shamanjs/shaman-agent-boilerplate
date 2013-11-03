@@ -1,0 +1,32 @@
+{
+   "name":"shaman-APPNAME",
+   "description":"DESCRIPTIONHERE",
+   "version":"0.0.1",
+   "homepage":"http://github.com/wearefractal/shaman-APPNAME",
+   "repository":"git://github.com/wearefractal/shaman-APPNAME.git",
+   "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+   "main":"./index.js",
+   "generator": "./generate.js",
+   
+   "tags": ["shaman","job","shaman-job"],
+
+   "dependencies":{
+      "shaman":"*"
+   },
+   "devDependencies":{
+      "mocha":"*",
+      "should":"*"
+   },
+   "scripts":{
+      "test":"mocha"
+   },
+   "engines":{
+      "node":">= 0.4.0"
+   },
+   "licenses":[
+      {
+         "type":"MIT",
+         "url":"http://github.com/wearefractal/shaman-APPNAME/raw/master/LICENSE"
+      }
+   ]
+}
